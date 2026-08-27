@@ -1,6 +1,6 @@
 let langName = "TypeScript";
 let theFavNum = 5;
-theFavNum = "Abdullah";
+let bool = true;
 console.log(langName);
 console.log(typeof langName);
 console.log(theFavNum);
