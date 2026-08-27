@@ -4,3 +4,7 @@ function double(num: number): number {
 }
 let res = double(122);
 console.log(res);
+//Arrow Func
+const sqr = (x: number): string => {
+  return `square of ${x} is ${x ** 2}`;
+};
