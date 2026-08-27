@@ -1,3 +1,6 @@
-type Person={
-  
-}
+type Person = {
+  name: String;
+};
+const person: Person = {
+  name: "Abduulah",
+};
