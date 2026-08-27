@@ -2,6 +2,6 @@ type Person = {
   name: String;
 };
 const person: Person = {
-  name: "Abduulah",
+  name: "Abdullah",
 };
 console.log(person.name);
