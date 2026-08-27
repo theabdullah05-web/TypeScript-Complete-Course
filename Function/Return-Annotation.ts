@@ -1,4 +1,4 @@
 //Regular function
-function double(num: number) {
+function double(num: number): number {
   return num * 2;
 }
