@@ -10,3 +10,4 @@ let x: never;
 function neverreturns(): never {
   while (true) {}
 }
+x = neverreturns();
