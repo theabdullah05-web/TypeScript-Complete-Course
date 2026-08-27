@@ -8,3 +8,5 @@ console.log(res);
 const sqr = (x: number): string => {
   return `square of ${x} is ${x ** 2}`;
 };
+const res2 = sqr(99);
+console.log(res2);
