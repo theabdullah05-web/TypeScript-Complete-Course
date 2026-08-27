@@ -7,7 +7,7 @@ console.log(res);
 
 //Arrow Func
 let mulFunc = (a: number, b: number) => {
-  a * b;
+  return a * b;
 };
 const doubledAge = mulFunc(2, 21);
 console.log(doubledAge);
