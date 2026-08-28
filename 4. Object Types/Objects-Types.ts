@@ -1,0 +1,8 @@
+const person: { firstName: string; lastName: string; age: number } = {
+  firstName: "Abdullah",
+  lastName: "Hussain",
+  age: 21,
+};
+console.log(
+  `Hi, My name is ${person.firstName} ${person.lastName} and my age is ${person.age}`,
+);
