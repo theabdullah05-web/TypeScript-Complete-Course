@@ -6,6 +6,5 @@ type Person = {
 const user: Person = {
   name: "Abdullah",
   age: 21,
-  location: "Sambrial",
 };
 console.log(user);
