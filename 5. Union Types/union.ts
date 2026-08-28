@@ -14,3 +14,7 @@ let user1: userInfo | accountInfo = {
 };
 
 let array: (number | string)[] = [21, "Abdullah"];
+
+let printName = (num: number | string[]) => {
+  console.log("Hello");
+};
