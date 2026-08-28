@@ -8,4 +8,4 @@ const user: Person = {
   age: 21,
   location: "Sambrial",
 };
-console.log(Person);
+console.log(user);
