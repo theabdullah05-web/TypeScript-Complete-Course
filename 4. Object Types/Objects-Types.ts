@@ -15,3 +15,5 @@ function printUser(): { name: string; age: number; country: string } {
     country: "Pakistan",
   };
 }
+const res = printUser();
+console.log(res);
