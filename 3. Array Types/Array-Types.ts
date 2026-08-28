@@ -1,1 +1,1 @@
-const nums: number[] = [];
+const nums: number[] = [1, 2];
