@@ -1,10 +1,11 @@
 type Person = {
   readonly name: string;
   age: number;
-  location?: string;
+  location: string;
 };
 const user: Person = {
   name: "Abdullah",
   age: 21,
+  location: "Sialkot",
 };
 console.log(user);
