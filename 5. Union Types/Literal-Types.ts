@@ -8,3 +8,4 @@ isTrue = true;
 
 let password: "secretPassword" = "secretPassword";
 console.log(password);
+console.log(color);
