@@ -14,3 +14,6 @@ const tripArr: number[][][] = [
   ],
   [[9], [10]],
 ];
+console.log(singleArr);
+console.log(doubleArr);
+console.log(tripArr);
