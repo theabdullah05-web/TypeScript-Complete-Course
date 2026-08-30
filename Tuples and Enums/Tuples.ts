@@ -11,3 +11,4 @@ console.log(second);
 //Array
 let arr: (string | number)[];
 arr = [1, 2, "three"];
+console.log(arr);
