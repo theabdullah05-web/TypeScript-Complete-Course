@@ -15,6 +15,7 @@ let movie1: MovieGenre = {
   verdict: "ATB",
   genre: "Comics",
   printMovieInfo(name, verdict, ratings) {
-    return `Movie Name: ${name}, Box-Office Verdict:${verdict}, Genre:${this.genre}`;
+    return `Movie Name: ${name}, Box-Office Verdict:${verdict}, Ratings:${ratings}`;
   },
 };
+console.log(movie1.printMovieInfo(movie1.name, movie1.verdict, 5));
