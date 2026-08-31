@@ -12,3 +12,4 @@ console.log(num);
 const str = printString("Abdullah", "Hussain");
 console.log(str);
 const bool = printBool(true, false);
+console.log(bool);
