@@ -11,3 +11,4 @@ class Car implements Vehicle {
   }
 }
 let c1 = new Car();
+console.log(c1.start());
