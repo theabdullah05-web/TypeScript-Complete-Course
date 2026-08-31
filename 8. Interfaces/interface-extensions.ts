@@ -16,3 +16,5 @@ let car: Car = {
     console.log("Stop");
   },
 };
+car.start();
+car.stop();
