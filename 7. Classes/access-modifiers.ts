@@ -6,3 +6,6 @@ class Person {
     this.last = last;
   }
 }
+let p1 = new Person("John", "Doe");
+console.log(p1.first);
+console.log(p1.last);
