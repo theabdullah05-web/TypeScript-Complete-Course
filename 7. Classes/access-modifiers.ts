@@ -23,4 +23,4 @@ class Person extends Human {
 }
 let p1 = new Person("Abdullah", "Hussain", 21, "coding");
 console.log(p1.first);
-console.log(p1.Age());
+console.log(p1.getAge());
