@@ -7,3 +7,7 @@ class Class {
     this._myProperty = value;
   }
 }
+let myInstance = new Class();
+console.log(myInstance.myProperty);
+myInstance.myProperty = 26;
+console(myInstance.myProperty);
