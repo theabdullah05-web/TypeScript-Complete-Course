@@ -1,14 +1,23 @@
-class Person {
+class Human {
   public first: string;
   private last: string;
-  constructor(first: string, last: string) {
+  protected age: number;
+  constructor(first: string, last: string, age: number) {
     this.first = first;
     this.last = last;
+    this.age = age;
   }
   getName(): string {
     return `Last Name is ${this.last}`;
   }
 }
-let p1 = new Person("John", "Doe");
+class Person extends Human {
+  hobby: string;
+  constructor(first: string, last: string, age: number, hobby: string) {
+    super(first, last, age);
+    this.hobby = hobby;
+  }
+}
+let p1 = new Person("Abdullah", "Hussain", 21, "coding");
 console.log(p1.first);
 console.log(p1.getName());
