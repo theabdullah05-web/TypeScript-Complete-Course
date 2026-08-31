@@ -23,3 +23,17 @@ const Abdullah: User = {
 };
 greet(John);
 greet(Abdullah);
+
+//Example 2
+interface Song {
+  songName: string;
+  singerName: string;
+  getSongInfo(song: string, singer: string): string;
+}
+const song1: Song = {
+  songName: "Kharku",
+  singerName: "Diljit Dosanjh",
+  getSongInfo(songName, singerName) {
+    return `${songName} by ${singerName}`;
+  },
+};
