@@ -13,3 +13,4 @@ console.log(subtract(10, 20));
 const multiply: mathOperation = function (a, b) {
   return a * b;
 };
+console.log(multiply(45, 89));
