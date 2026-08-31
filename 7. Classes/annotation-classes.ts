@@ -6,3 +6,5 @@ class Person {
     this.age = age;
   }
 }
+const person = new Person("Abdullah", 21);
+console.log(person);
