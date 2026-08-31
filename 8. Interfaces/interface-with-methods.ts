@@ -37,3 +37,5 @@ const song1: Song = {
     return `${songName} by ${singerName}`;
   },
 };
+
+console.log(song1.getSongInfo(song1.songName, song1.singerName));
