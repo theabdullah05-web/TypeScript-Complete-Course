@@ -17,6 +17,9 @@ class Person extends Human {
     super(first, last, age);
     this.hobby = hobby;
   }
+  getAge(): string {
+    return `Age=${this.age}`;
+  }
 }
 let p1 = new Person("Abdullah", "Hussain", 21, "coding");
 console.log(p1.first);
