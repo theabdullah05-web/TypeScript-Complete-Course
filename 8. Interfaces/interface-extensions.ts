@@ -16,5 +16,7 @@ let car: Car = {
     console.log("Stop");
   },
 };
+console.log(car.name);
+console.log(car.brand);
 car.start();
 car.stop();
