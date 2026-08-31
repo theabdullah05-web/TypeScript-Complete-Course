@@ -1,8 +1,8 @@
 enum WeatherCondtion {
-  Sunny = "sunny",
-  Rainy = "rainy",
-  Snowy = "snowy",
-  Cloudy = "cloudy",
+  Sunny,
+  Rainy,
+  Snowy,
+  Cloudy,
 }
 let weather = WeatherCondtion.Cloudy;
 console.log(weather);
