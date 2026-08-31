@@ -21,3 +21,5 @@ const Abdullah: User = {
     console.log("On your left");
   },
 };
+greet(John);
+greet(Abdullah);
