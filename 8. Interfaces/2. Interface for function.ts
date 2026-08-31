@@ -9,3 +9,7 @@ const subtract: mathOperation = (a, b) => {
 };
 console.log(add(13, 54));
 console.log(subtract(10, 20));
+
+const multiply: mathOperation = function (a, b) {
+  return a * b;
+};
