@@ -6,3 +6,4 @@ enum WeatherCondtion {
 }
 let weather = WeatherCondtion.Cloudy;
 console.log(weather);
+console.log(WeatherCondtion);
