@@ -12,3 +12,4 @@ class Car implements Vehicle {
 }
 let c1 = new Car();
 c1.start();
+c1.stop();
