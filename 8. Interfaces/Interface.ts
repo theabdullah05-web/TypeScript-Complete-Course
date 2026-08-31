@@ -9,3 +9,15 @@ const computerExample: Computer = {
   hdd: 100,
 };
 console.log(computerExample.name);
+
+interface Movie {
+  readonly title: string;
+  verdict: string;
+  genre?: string;
+}
+const movie1: Movie = {
+  title: "Spiderman: Brand New Day",
+  verdict: "ATB",
+  genre: "Comics",
+};
+console.log(movie1);
