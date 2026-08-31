@@ -18,6 +18,5 @@ interface Movie {
 const movie1: Movie = {
   title: "Spiderman: Brand New Day",
   verdict: "ATB",
-  genre: "Comics",
 };
 console.log(movie1);
