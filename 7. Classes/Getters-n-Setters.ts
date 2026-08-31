@@ -10,4 +10,4 @@ class Class {
 let myInstance = new Class();
 console.log(myInstance.myProperty);
 myInstance.myProperty = 26;
-console(myInstance.myProperty);
+console.log(myInstance.myProperty);
