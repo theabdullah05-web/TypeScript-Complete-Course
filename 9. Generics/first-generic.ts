@@ -50,4 +50,5 @@ function getRandomKeyValuePair<T>(obj: { [key: string]: T }): {
   };
 }
 const stringObject = { a: "Avacado", b: "Blueberry", c: "Cantaloupe" };
-getRandomKeyValuePair<string>(stringObject);
+let randVal = getRandomKeyValuePair<string>(stringObject);
+console.log(randVal);
