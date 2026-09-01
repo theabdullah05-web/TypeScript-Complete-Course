@@ -27,3 +27,6 @@ let evenNum = filterData<number>(
   (num) => num % 2 === 0,
 );
 console.log(evenNum);
+
+let fruits = ["apple", "banana", "cherry", "date"];
+console.log(filterData<string>(fruits, (fruit) => fruit.length < 6));
