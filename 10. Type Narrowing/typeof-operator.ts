@@ -6,3 +6,5 @@ function exampleFunction(a: MyType): void {
     console.log(a.toFixed(2));
   }
 }
+exampleFunction("Abdullah");
+exampleFunction(26);
