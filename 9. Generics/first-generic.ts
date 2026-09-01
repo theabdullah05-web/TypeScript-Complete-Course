@@ -16,9 +16,9 @@
 // console.log(bool);
 
 //Generics
-function MultiTypeGenFunc<T>(a: T, b: T): [T, T] {
-  return [a, b];
-}
+// function MultiTypeGenFunc<T>(a: T, b: T): [T, T] {
+//   return [a, b];
+// }
 // let str = MultiTypeGenFunc<string>("Hello", "World");
 // let num = MultiTypeGenFunc<number>(21, 26);
 // let bool = MultiTypeGenFunc<boolean>(true, false);
@@ -27,15 +27,15 @@ function MultiTypeGenFunc<T>(a: T, b: T): [T, T] {
 // console.log(bool);
 
 //interface & generics
-interface Dog {
-  name: string;
-  breed: string;
-}
-let dog1 = MultiTypeGenFunc<Dog>(
-  { name: "Puppy", breed: "Some Breed" },
-  { name: "Puppy2", breed: "Stray" },
-);
-console.log(dog1);
+// interface Dog {
+//   name: string;
+//   breed: string;
+// }
+// let dog1 = MultiTypeGenFunc<Dog>(
+//   { name: "Puppy", breed: "Some Breed" },
+//   { name: "Puppy2", breed: "Stray" },
+// );
+// console.log(dog1);
 
 //Another Example
 function getRandomKeyValuePair<T>(obj: { [key: string]: T }): {
