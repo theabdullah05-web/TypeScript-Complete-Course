@@ -35,3 +35,4 @@ let dog1 = MultiTypeGenFunc<Dog>(
   { name: "Puppy", breed: "Some Breed" },
   { name: "Puppy2", breed: "Stray" },
 );
+console.log(dog1);
