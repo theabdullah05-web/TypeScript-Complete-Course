@@ -1,4 +1,4 @@
-//Normal Zindagi
+//Normal Function
 // function printNum(val: number, defaultVal: number): [number, number] {
 //   return [val, defaultVal];
 // }
@@ -15,7 +15,7 @@
 // const bool = printBool(true, false);
 // console.log(bool);
 
-//Mentos Zindagi
+//Generics
 function MultiTypeGenFunc<T>(a: T, b: T): [T, T] {
   return [a, b];
 }
