@@ -25,3 +25,13 @@ let bool = MultiTypeGenFunc<boolean>(true, false);
 console.log(str);
 console.log(num);
 console.log(bool);
+
+//interface & generics
+interface Dog {
+  name: string;
+  breed: string;
+}
+let dog1 = MultiTypeGenFunc<Dog>(
+  { name: "Puppy", breed: "Some Breed" },
+  { name: "Puppy2", breed: "Stray" },
+);
