@@ -19,12 +19,12 @@
 function MultiTypeGenFunc<T>(a: T, b: T): [T, T] {
   return [a, b];
 }
-let str = MultiTypeGenFunc<string>("Hello", "World");
-let num = MultiTypeGenFunc<number>(21, 26);
-let bool = MultiTypeGenFunc<boolean>(true, false);
-console.log(str);
-console.log(num);
-console.log(bool);
+// let str = MultiTypeGenFunc<string>("Hello", "World");
+// let num = MultiTypeGenFunc<number>(21, 26);
+// let bool = MultiTypeGenFunc<boolean>(true, false);
+// console.log(str);
+// console.log(num);
+// console.log(bool);
 
 //interface & generics
 interface Dog {
