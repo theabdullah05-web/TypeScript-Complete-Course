@@ -1,3 +1,4 @@
+//First Example
 function getRandomKeyValuePair<T>(obj: { [key: string]: T }): {
   key: string;
   value: T;
@@ -16,3 +17,13 @@ console.log(randVal);
 const numObject = { one: 1, two: 2, three: 3 };
 let randNum = getRandomKeyValuePair<number>(numObject);
 console.log(randNum);
+
+//Second Example
+function filterData<T>(array: T[], condition: (item: T) => boolean): T[] {
+  return array.filter((item) => condition(item));
+}
+let evenNum = filterData<number>(
+  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  (num) => num % 2 === 0,
+);
+console.log(evenNum);
