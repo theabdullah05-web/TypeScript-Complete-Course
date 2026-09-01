@@ -30,3 +30,15 @@ console.log(evenNum);
 
 let fruits = ["apple", "banana", "cherry", "date"];
 console.log(filterData<string>(fruits, (fruit) => fruit.length < 6));
+
+interface Fruit {
+  name: string;
+  color: string;
+}
+let fruitArr: Fruit[] = [
+  { name: "Apple", color: "Red" },
+  { name: "Banana", color: "Yellow" },
+  { name: "Cherry", color: "Red" },
+];
+let redFruits = filterData<Fruit>(fruitArr, (fruit) => fruit.color === "Red");
+console.log(redFruits);
