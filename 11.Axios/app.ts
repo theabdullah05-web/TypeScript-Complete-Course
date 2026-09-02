@@ -15,3 +15,4 @@ const fetchData = async () => {
     console.log("Error", error.message);
   }
 };
+fetchData();
