@@ -6,7 +6,12 @@ interface Todo {
   completed: boolean;
 }
 const fetchData = async () => {
-  const response: AxiosResponse<Todo> = await axios.get(
-    "https://jsonplaceholder.typicode.com/todos/1",
-  );
+  try {
+    const response: AxiosResponse<Todo> = await axios.get(
+      "https://jsonplaceholder.typicode.com/todos/1",
+    );
+    console.log(`Todo: ${response.data}`);
+  } catch (error: any) {
+    console.log("Error", error.message);
+  }
 };
