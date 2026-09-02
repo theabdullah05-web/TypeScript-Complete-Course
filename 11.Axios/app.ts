@@ -10,7 +10,7 @@ const fetchData = async () => {
     const response: AxiosResponse<Todo> = await axios.get(
       "https://jsonplaceholder.typicode.com/todos/1",
     );
-    console.log(`Todo: ${response.data}`);
+    console.log(response.data);
   } catch (error: any) {
     console.log("Error", error.message);
   }
