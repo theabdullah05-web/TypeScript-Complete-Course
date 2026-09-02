@@ -1,4 +1,10 @@
-import express from "express";
+import express, { Request, Response } from "express";
 
 const app = express();
-app.liste;
+app.listen(3000, () => {
+  console.log("Server is running on port 3000");
+});
+
+app.get("/", (req: Request, res: Response) => {
+  res.send("Express with TypeScript");
+});
